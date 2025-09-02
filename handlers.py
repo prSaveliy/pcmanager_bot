@@ -244,6 +244,7 @@ async def screenshot(callback: CallbackQuery):
         photo = FSInputFile("screenshot.png")
         await callback.answer('')
         await callback.message.answer_photo(photo, caption="Screenshot was taken!", reply_markup=kb.inline_system_back_from_screenshot)
+        os.remove("screenshot.png")
     except Exception:
         await callback.answer("Something went wrong.")
 
