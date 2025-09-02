@@ -66,7 +66,7 @@ python run.py
 - Use these commands:
 
   - `/start` → Start the bot
-  - `/main` → SMain menu
+  - `/main` → Main menu
   - `/search` → Search for anything directly from your bot
 
 ## Get Involved
