@@ -280,5 +280,3 @@ async def system_info(callback: CallbackQuery):
                                         parse_mode="HTML", reply_markup=kb.inline_system)
     except Exception:
         await callback.answer("Something went wrong.")
-
-#manage exceptions, push to github, write a readme
